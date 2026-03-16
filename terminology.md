@@ -222,6 +222,26 @@ An open standard for access delegation.
 JSON Web Tokens - compact, URL-safe means of representing claims.  
 **Use Cases:** Stateless authentication, secure data transmission.
 
+## Bonus: Big Data
+Large volumes of structured and unstructured data that require advanced processing techniques.  
+**Use Cases:** Analytics for business intelligence, predictive modeling, real-time processing.
+
+## Bonus: Blockchain
+A decentralized, distributed ledger technology for secure, transparent record-keeping.  
+**Use Cases:** Cryptocurrencies, supply chain tracking, smart contracts.
+
+## Bonus: Cybersecurity
+Practices and technologies to protect systems, networks, and data from digital attacks.  
+**Use Cases:** Protecting sensitive information, preventing data breaches, secure communication.
+
+## Bonus: IoT
+Internet of Things - network of physical devices connected to the internet collecting and sharing data.  
+**Use Cases:** Smart homes, industrial monitoring, wearable health devices.
+
+## Bonus: Quantum Computing
+Computing using quantum-mechanical phenomena for processing information.  
+**Use Cases:** Complex simulations, cryptography, optimization problems.
+
 ## Differences between MCP and API
 
 While both MCP (Model Context Protocol) and API (Application Programming Interface) facilitate communication between systems, they serve different purposes and scopes:
