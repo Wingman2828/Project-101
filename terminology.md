@@ -221,3 +221,25 @@ An open standard for access delegation.
 ## Bonus: JWT
 JSON Web Tokens - compact, URL-safe means of representing claims.  
 **Use Cases:** Stateless authentication, secure data transmission.
+
+## Differences between MCP and API
+
+While both MCP (Model Context Protocol) and API (Application Programming Interface) facilitate communication between systems, they serve different purposes and scopes:
+
+### MCP (Model Context Protocol)
+- **Definition**: A specialized protocol designed to enable AI models (like language models) to securely access and interact with external tools, data sources, and computational resources.
+- **Purpose**: Extends AI capabilities by allowing models to perform actions beyond their training data, such as running code, accessing databases, or calling external services.
+- **Use Cases**: Integrating AI assistants with development environments, enabling models to execute code snippets, query databases, or use web APIs through standardized interfaces.
+- **Key Features**: Focuses on tool use, context management, and secure execution for AI agents.
+
+### API (Application Programming Interface)
+- **Definition**: A set of rules, protocols, and tools for building software applications, allowing different software components to communicate and exchange data.
+- **Purpose**: Enables integration between various software systems, regardless of the underlying technology.
+- **Use Cases**: Web services (REST, GraphQL), library interfaces, operating system APIs, database connections, etc.
+- **Key Features**: Broad applicability across all software domains, not limited to AI.
+
+### Key Differences
+- **Scope**: MCP is specifically for AI models and their interactions with tools; APIs are general-purpose for any software communication.
+- **Focus**: MCP emphasizes secure tool execution and context for AI; APIs focus on data exchange and integration.
+- **Implementation**: MCP uses a standardized protocol for AI-tool interactions; APIs can take many forms (REST, SOAP, GraphQL, etc.).
+- **Evolution**: MCP is a newer concept emerging with advanced AI systems; APIs have been fundamental to software development for decades.
